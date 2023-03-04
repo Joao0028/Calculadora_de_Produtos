@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+
+body{
+    background: linear-gradient(236deg,#39c974,#baa9db,#315e69,#85b9d7,#a630f1);
+  background-size: 300% 300%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+.info{
+    display: flex;
+    background-color: rgba(10,23,55,0.5);
+    border-radius: 25px 25px 0  0;
+    padding: 1em 10px 0;
+    margin: 2em auto 0;
+    width: 30%;
+    justify-content: center;
+    border: 3px solid black;
+    border-bottom: none;
+}
+.minhas__info{
+    display: flex;
+    
+}
+ion-icon{
+    color: white;
+    font-size: 150%;
+    margin: 0 1em;
+}
+
+.botao{
+    padding: 1em;
+    border: none;
+    background-color: white;
+    margin: 0.5em 0.5em;
+    text-align: center;
+    border-radius: 8px;
+    color: rgba(10,23,55,0.5);
+}
+.botoes__container{
+  display: flex;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    text-align: center;
+} 
+
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(10,23,55,0.5);
+    margin: auto;
+    padding: 2em;
+    width: 30%;
+    border-radius: 0 0 25px 25px;
+    font-size: 5px;
+    color: white;
+    border: 3px solid black;
+    border-top: none;
+    
+}
+ 
+.englobar{
+    display: flex;
+}
+
+.n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10{
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+hr{
+    display: flex;
+    width: 84%;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 80%;
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(10,23,55,0.5);
+    border-radius: 12px;
+}
+
